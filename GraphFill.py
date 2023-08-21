@@ -274,9 +274,9 @@ def create_graph(data):
 
 def main():
     # read input
-    myFile = open("small.in", "r")
-    data = myFile.read()
-    # data = sys.stdin.read()
+    # myFile = open("small.in", "r")
+    # data = myFile.read()
+    data = sys.stdin.read()
 
     graph, search_start, search_color = create_graph(data)
 
